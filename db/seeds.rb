@@ -27,7 +27,6 @@ user2 = User.create(
   name: "Valentin"
 )
 
-
 user3 = User.create(
   email: "mathilde@gmail.com",
   password: "mathildemathilde",
