@@ -41,7 +41,7 @@ user4 = User.create(
   name: "Julien"
 )
 
-vhl1 = Offer.create(
+vhl1 = Offer.create!(
   title: "Ferrari 488GTB",
   price: "300",
   brand: "Ferrari",
@@ -49,7 +49,9 @@ vhl1 = Offer.create(
   horsepower: "500",
   km_age: "1500",
   body_type: "3",
-  user: user1
+  year: 1920,
+  user: user1,
+  color: "blue"
 )
 
 vhl2 = Offer.create(
@@ -60,7 +62,9 @@ vhl2 = Offer.create(
   horsepower: "400",
   km_age: "15000",
   body_type: "5",
-  user: user2
+  year: 1920,
+  user: user2,
+  color: "blue"
 )
 
 vhl3 = Offer.create(
@@ -71,7 +75,9 @@ vhl3 = Offer.create(
   horsepower: "450",
   km_age: "12000",
   body_type: "4",
-  user: user3
+  year: 1920,
+  user: user3,
+  color: "blue"
 )
 
 vhl4 = Offer.create(
@@ -82,7 +88,9 @@ vhl4 = Offer.create(
   horsepower: "450",
   km_age: "12000",
   body_type: "4",
-  user: user4
+  year: 1920,
+  user: user4,
+  color: "blue"
 )
 
 vhl5 = Offer.create(
@@ -93,7 +101,9 @@ vhl5 = Offer.create(
   horsepower: "325",
   km_age: "19000",
   body_type: "2",
-  user: user2
+  year: 1920,
+  user: user2,
+  color: "blue"
 )
 
 vhl6 = Offer.create(
@@ -104,7 +114,9 @@ vhl6 = Offer.create(
   horsepower: "320",
   km_age: "13000",
   body_type: "3",
-  user: user1
+  year: 2010,
+  user: user1,
+  color: "blue"
 )
 
 
