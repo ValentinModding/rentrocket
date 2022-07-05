@@ -4,6 +4,8 @@
 
 **To Do**
 - Clean the code 
+- Responsive
+- Front Dev
 
 
 **Developpers :**
